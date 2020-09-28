@@ -2,7 +2,7 @@
   "name": "tiny.me",
   "version": "0.0.1",
   "description": "tiny.me is a URL shortener",
-  "main": "./dist/server.js",
+  "main": "./dist/app.js",
   "scripts": {
     "build": "tsc",
     "start": "concurrently \"tsc -w\" \"nodemon dist/js/app.js\""
@@ -19,6 +19,7 @@
   "homepage": "https://github.com/ThPadelis/tiny.me#readme",
   "dependencies": {
     "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "mongoose": "^5.10.7"
   },
